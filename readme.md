@@ -62,44 +62,28 @@ Read more about object detection model used, working of the algorithm, and devel
 ### Installation
 
 * Step I: Clone the Repository
-```sh
-      $ git clone https://github.com/mihir-m-gandhi/Adaptive-Traffic-Signal-Timer
+```
+      git clone https://github.com/mihir-m-gandhi/Adaptive-Traffic-Signal-Timer
 ```
 
 * Step II: Download the weights file from [here](https://drive.google.com/file/d/1flTehMwmGg-PMEeQCsDS2VWRLGzV6Wdo/view?usp=sharing) and place it in the Adaptive-Traffic-Signal-Timer/Code/YOLO/darkflow/bin directory
 
 * Step III: Install the required packages
-```sh
+```
       # On the terminal, move into Adaptive-Traffic-Signal-Timer/Code/YOLO/darkflow directory
-      $ cd Adaptive-Traffic-Signal-Timer/Code/YOLO/darkflow
-      $ pip install -r requirements.txt
-      $ python setup.py build_ext --inplace
+      cd Adaptive-Traffic-Signal-Timer/Code/YOLO/darkflow
+      pip install -r requirements.txt
+      python setup.py build_ext --inplace
 ```
 
 * Step IV: Run the code
-```sh
+```
       # To run vehicle detection
-      $ python vehicle_detection.py
+      python vehicle_detection.py
       
       # To run simulation
-      $ python simulation.py
+      python simulation.py
 ```
-
-------------------------------------------
-### Dissemination
-
-* This project was showcased at a national level project competition organized by [Government Polytechnic Mumbai](http://www.gpmumbai.ac.in/). View our presentation video [here](https://youtu.be/OssY5pzOyo0).
-
-* Our paper based on this project was presented at 5th IEEE International Conference on Recent Advances and Innovations in Engineering - [ICRAIE 2020](http://www.icraie.poornima.org/) and published in IEEE Xplore. View the paper [here](https://ieeexplore.ieee.org/document/9358334).
-
-------------------------------------------
-### Contributors
-
-Mihir Gandhi - [mihir-m-gandhi](https://github.com/mihir-m-gandhi)
-
-Devansh Solanki - [devanshslnk](https://github.com/devanshslnk/)
-
-Rutwij Daptardar - [RDmaverick](https://github.com/RDmaverick)
 
 ------------------------------------------
 ### Acknowledgement
