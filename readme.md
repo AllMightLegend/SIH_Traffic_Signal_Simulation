@@ -1,5 +1,5 @@
 <p align="center">
- <img height=200px src="./traffic-signal.jpg" alt="Traffic Signal Timer">
+ <img height=200px src="./traffic_signal.jpg" alt="Traffic Signal Timer">
 </p>
 
 <h1 align="center">Adaptive Traffic Signal Timer</h1>
